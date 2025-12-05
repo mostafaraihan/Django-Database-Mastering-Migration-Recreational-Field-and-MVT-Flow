@@ -89,7 +89,8 @@ class Migration(migrations.Migration):
 ```
 </details>
 
-3. Applying Migration $\rightarrow$ SQLite Table CreationThe final step executes the instructions in the migration file against the connected database, creating the table in db.sqlite3.Command: ```python manage.py migrate```
+3. Applying Migration $\rightarrow$ SQLite Table CreationThe final step executes the instructions in the migration file against the connected database, creating the table in db.sqlite3.<br>
+Command: ```python manage.py migrate```
 4. 🗄️ Resulting SQLite Table Schema:
 
 ```
